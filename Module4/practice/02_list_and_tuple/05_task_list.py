@@ -4,8 +4,12 @@
 
 # Исходные данные:
 fruits = ["яблоко", "банан", "киви", "арбуз"]
+print(fruits)
+number = 1
+for fruit in fruits:
+    print('#{}. {}'.format(number, fruit))
+    number = number +1
 
-# TODO: your code here
 
 # Пример вывода:
 # 1. яблоко
